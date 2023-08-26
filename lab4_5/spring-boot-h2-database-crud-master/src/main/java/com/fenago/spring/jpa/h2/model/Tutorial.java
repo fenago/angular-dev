@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jpa.h2.model;
+package com.fenago.spring.jpa.h2.model;
 
 import jakarta.persistence.*;
 
