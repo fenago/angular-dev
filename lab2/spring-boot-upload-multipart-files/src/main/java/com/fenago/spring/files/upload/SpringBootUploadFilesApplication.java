@@ -1,4 +1,4 @@
-package com.bezkoder.spring.files.upload;
+package com.fenago.spring.files.upload;
 
 // import javax.annotation.Resource; // for Spring Boot 2
 import jakarta.annotation.Resource;
@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.bezkoder.spring.files.upload.service.FilesStorageService;
+import com.fenago.spring.files.upload.service.FilesStorageService;
 
 @SpringBootApplication
 public class SpringBootUploadFilesApplication implements CommandLineRunner {

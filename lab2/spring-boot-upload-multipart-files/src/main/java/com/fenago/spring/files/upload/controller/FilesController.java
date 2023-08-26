@@ -1,4 +1,4 @@
-package com.bezkoder.spring.files.upload.controller;
+package com.fenago.spring.files.upload.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import com.bezkoder.spring.files.upload.message.ResponseMessage;
-import com.bezkoder.spring.files.upload.model.FileInfo;
-import com.bezkoder.spring.files.upload.service.FilesStorageService;
+import com.fenago.spring.files.upload.message.ResponseMessage;
+import com.fenago.spring.files.upload.model.FileInfo;
+import com.fenago.spring.files.upload.service.FilesStorageService;
 
 @Controller
 @CrossOrigin("http://localhost:8081")
