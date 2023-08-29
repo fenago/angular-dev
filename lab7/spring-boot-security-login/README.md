@@ -49,8 +49,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=update
 
 # App Properties
-bezkoder.app.jwtSecret= ======================BezKoder=Spring===========================
-bezkoder.app.jwtExpirationMs= 86400000
+fenago.app.jwtSecret= ======================fenago=Spring===========================
+fenago.app.jwtExpirationMs= 86400000
 ```
 - For MySQL
 ```
@@ -62,8 +62,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 spring.jpa.hibernate.ddl-auto=update
 
 # App Properties
-bezkoder.app.jwtSecret= ======================BezKoder=Spring===========================
-bezkoder.app.jwtExpirationMs= 86400000
+fenago.app.jwtSecret= ======================fenago=Spring===========================
+fenago.app.jwtExpirationMs= 86400000
 ```
 ## Run Spring Boot application
 ```
